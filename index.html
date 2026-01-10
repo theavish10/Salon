@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Bloom Salon & Spa | Best Salon Near You</title>
+    <meta name="description" content="Bloom Salon & Spa offers professional beauty, bridal makeup, hair, and spa services. Book your appointment today.">
+    <meta name="keywords" content="Best Salon Near Me, Bridal Makeup, Beauty Spa, Bloom Salon">
+    <meta name="author" content="Bloom Salon & Spa">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: #c44569;
+            color: #fff;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            height: 80vh;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url("https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9") center/cover no-repeat;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .hero button {
+            padding: 12px 25px;
+            background: #c44569;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background: #a83250;
+        }
+
+        section {
+            padding: 60px 50px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #c44569;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .service-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .service-box h3 {
+            margin-bottom: 10px;
+        }
+
+        .about {
+            background: #fff0f5;
+        }
+
+        .contact {
+            background: #c44569;
+            color: white;
+        }
+
+        .contact p {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media(max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+
+            .hero h2 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bloom Salon & Spa</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <div>
+        <h2>Look Beautiful, Feel Confident</h2>
+        <p>Professional Salon & Spa Services Just For You</p>
+        <button>Book Appointment</button>
+    </div>
+</div>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>Bridal Makeup</h3>
+            <p>Perfect makeup for your special day.</p>
+        </div>
+        <div class="service-box">
+            <h3>Hair Styling</h3>
+            <p>Trendy haircuts and professional styling.</p>
+        </div>
+        <div class="service-box">
+            <h3>Facial & Spa</h3>
+            <p>Relaxing and rejuvenating spa treatments.</p>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+        Bloom Salon & Spa is dedicated to providing top-quality beauty and wellness services.
+        Our experienced professionals ensure you look and feel your best.
+    </p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Location: Your City Name</p>
+    <p>📞 Phone: +91 XXXXXXXXXX</p>
+    <p>⏰ Timings: 10 AM – 8 PM</p>
+</section>
+
+<footer>
+    <p>© 2026 Bloom Salon & Spa. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
